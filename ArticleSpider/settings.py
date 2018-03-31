@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 # Scrapy settings for ArticleSpider project
 #
@@ -106,16 +106,16 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-MYSQL_HOST = "127.0.0.1"
-MYSQL_DBNAME = "article_spider"
-MYSQL_USER = "root"
-MYSQL_PASSWORD = "root"
-
-
-# MYSQL_HOST = "119.23.77.67"
+# MYSQL_HOST = "127.0.0.1"
 # MYSQL_DBNAME = "article_spider"
-# MYSQL_USER = "ummor"
-# MYSQL_PASSWORD = "xKDzGaPu4rQbDVB2"
+# MYSQL_USER = "root"
+# MYSQL_PASSWORD = "root"
+
+
+MYSQL_HOST = "119.23.77.67"
+MYSQL_DBNAME = "article_spider"
+MYSQL_USER = "ummor"
+MYSQL_PASSWORD = "xKDzGaPu4rQbDVB2"
 #
 # SQL_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 # SQL_DATE_FORMAT = "%Y-%m-%d"
